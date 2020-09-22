@@ -1,0 +1,24 @@
+{
+  "name": "counter_vue3",
+  "version": "1.0.0",
+  "description": "Example vue",
+  "scripts": {
+    "dev": "taskr dev"
+  },
+  "author": "ivanheral <ivanhernandezal@gmail.com>",
+  "keywords": [
+    "modules"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "@taskr/clear": "^1.1.0",
+    "@taskr/esnext": "^1.1.0",
+    "@taskr/watch": "^1.1.0",
+    "taskr": "^1.1.0",
+    "taskr-esbuild": "*",
+    "taskr-servor": "*"
+  }
+}
