@@ -21,6 +21,6 @@ export async function dev(task) {
 
 export async function js(task) {
     await task.source(`src/app/**/*.{tsx,jsx,json,jpg,png}`).esbuild({
-        minify: false
+       esbuild: { minify: false }
     }).target(dest)
 }
